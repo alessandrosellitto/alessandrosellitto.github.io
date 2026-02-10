@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "baseURL = "https://alessandrosellitto.github.io/" 
+title: Alessandro Sellitto
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,25 +12,22 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
+        - name: Research
+          url: research/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Teaching
+          url: teaching/
           weight: 3
         - name: Data
           url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+          weight: 5
+        - name: Policy
+          url: policy/
+          weight: 4
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "This website hosts Alessandro Sellitto's research papers, course materials, data, curriculum vitae, and contact information."
+    author: Alessandro Sellitto
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -44,7 +41,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["research","teaching","policy","data"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -54,50 +51,38 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          title: Alessandro Sellitto 
+          subtitle: "PhD Candidate in Economics at the University of Milan and the University of Pavia, and Research Affiliate at the Düsseldorf Institute for Competition Economics (DICE). I have been a visiting researcher at DICE (October 2024–March 2025), the European Commission’s Joint Research Centre (April 2025–August 2025), and the Toulouse School of Economics (January 2026). My research focuses on the economics of AI, digital economics, empirical IO, and behavioral economics."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
+            - name: Research
+              url: research/
             - name: Data
               url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Teaching
+              url: teaching/
+            - name: Policy
+              url: policy/
+            - name: Data
+              url: data/
+    
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:alessandro.sellitto@unimi.it
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/alessandrosellitto
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/citations?user=L6EWq5IAAAAJ&hl=it
+        - name: ORCID
+          url: https://orcid.org/0009-0004-9534-2886
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://github.com/AleSell
+
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +90,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Alessandro Sellitto"
       icon: favicon.ico
       iconHeight: 18
 
