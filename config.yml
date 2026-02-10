@@ -1,6 +1,7 @@
-baseURL: "baseURL = "https://alessandrosellitto.github.io/" 
-title: Alessandro Sellitto
-theme: PaperMod
+baseURL: "https://alessandrosellitto.github.io/"
+title: "Alessandro Sellitto"
+theme: "PaperMod"
+
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
