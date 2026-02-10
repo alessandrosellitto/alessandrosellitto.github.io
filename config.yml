@@ -66,8 +66,6 @@ params:
               url: teaching/
             - name: Policy
               url: policy/
-            - name: Data
-              url: data/
     
 
     socialIcons:
