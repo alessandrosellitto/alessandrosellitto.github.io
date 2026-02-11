@@ -15,7 +15,7 @@ My research focuses on the role of data, algorithms, and AI technologies in shap
 
 ## Work in Progress
 
-- **Search Ads with LLMs**  
+- **Search Ads in the LLM Era**  
   with [Pinar Yildirim](https://pinaryildirim.com) and [Eduardo Azevedo](https://eduardomazevedo.github.io)
 
 - **The Economics of Supercomputing**  
