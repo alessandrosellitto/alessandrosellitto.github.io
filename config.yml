@@ -1,5 +1,5 @@
 baseURL: "https://alessandrosellitto.github.io/"
-title: "Alessandro Sellitto"
+title: "Alessandro Sellitto - Economics PhD Candidate"
 theme: "PaperMod"
 
 enableInlineShortcodes: true
@@ -18,7 +18,8 @@ menu:
       weight: 2
 
 params:
-  description: "This website hosts Alessandro Sellitto's research papers, curriculum vitae, and contact information."
+  description: "PhD Candidate in Economics. Research in AI Economics, Digital Economics, Empirical IO, and Behavioral Economics."
+  keywords: ["Alessandro Sellitto", "Economics", "AI Economics", "Digital Economics", "Empirical IO"]
   author: "Alessandro Sellitto"
   DateFormat: "January 2006"
   defaultTheme: light
