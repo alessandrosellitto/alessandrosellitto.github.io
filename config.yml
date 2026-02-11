@@ -16,18 +16,9 @@ menu:
     - name: Research
       url: research/
       weight: 2
-    - name: Teaching
-      url: teaching/
-      weight: 3
-    - name: Data
-      url: data/
-      weight: 5
-    - name: Policy
-      url: policy/
-      weight: 4
 
 params:
-  description: "This website hosts Alessandro Sellitto's research papers, course materials, data, curriculum vitae, and contact information."
+  description: "This website hosts Alessandro Sellitto's research papers, curriculum vitae, and contact information."
   author: "Alessandro Sellitto"
   DateFormat: "January 2006"
   defaultTheme: light
@@ -41,7 +32,7 @@ params:
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowAllPagesInArchive: false
-  MainSections: ["research", "teaching", "policy", "data"]
+  MainSections: ["research"]
   ShowToc: false
   disableScrollToTop: true
   TocOpen: true
@@ -53,19 +44,13 @@ params:
   profileMode:
     enabled: true
     title: "Alessandro Sellitto"
-    subtitle: "PhD Candidate in Economics at the University of Milan and the University of Pavia, and Research Affiliate at the Düsseldorf Institute for Competition Economics (DICE). I have been a visiting researcher at DICE (October 2024–March 2025), the European Commission’s Joint Research Centre (April 2025–August 2025), and the Toulouse School of Economics (January 2026). My research focuses on the economics of AI, digital economics, empirical IO, and behavioral economics."
+    subtitle: "I am a PhD Candidate in Economics at the University of Milan and the University of Pavia, and Research Affiliate at the Düsseldorf Institute for Competition Economics (DICE). I have been a visiting researcher at DICE (October 2024–March 2025), the European Commission’s Joint Research Centre (April 2025–August 2025), and the Toulouse School of Economics (January 2026). My research focuses on the economics of AI, digital economics, empirical IO, and behavioral economics."
     imageUrl: "picture.jpeg"
     imageWidth: 160
     imageHeight: 160
     buttons:
       - name: Research
         url: research/
-      - name: Data
-        url: data/
-      - name: Teaching
-        url: teaching/
-      - name: Policy
-        url: policy/
 
   socialIcons:
     - name: CV
@@ -78,8 +63,6 @@ params:
       url: "https://scholar.google.com/citations?user=L6EWq5IAAAAJ&hl=it"
     - name: ORCID
       url: "https://orcid.org/0009-0004-9534-2886"
-    - name: GitHub
-      url: "https://github.com/AleSell"
 
   assets:
     disableScrollBarStyle: true
