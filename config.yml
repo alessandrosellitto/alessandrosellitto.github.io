@@ -60,12 +60,15 @@ params:
       url: "mailto:alessandro.sellitto@unimi.it"
     - name: LinkedIn
       url: "https://www.linkedin.com/in/alessandrosellitto"
+    - name: x
+      url: "https://x.com/AleSellEcon"
     - name: Google Scholar
       url: "https://scholar.google.com/citations?user=L6EWq5IAAAAJ&hl=it"
     - name: ORCID
       url: "https://orcid.org/0009-0004-9534-2886"
-    - name: x
-      url: "https://x.com/AleSellEcon"
+    - name: github 
+      url: "https://github.com/alessandrosellitto"
+
 
 
   assets:
