@@ -60,8 +60,6 @@ params:
       url: "mailto:alessandro.sellitto@unimi.it"
     - name: LinkedIn
       url: "https://www.linkedin.com/in/alessandrosellitto"
-    - name: Bluesky
-      url: "https://bsky.app/profile/alessandrosellitto.bsky.social"
     - name: x
       url: "https://x.com/AleSellEcon"
     - name: Google Scholar
