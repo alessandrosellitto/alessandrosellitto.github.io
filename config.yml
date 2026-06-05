@@ -1,107 +1,90 @@
-baseURL: "baseURL = "https://alessandrosellitto.github.io/" 
+baseURL: "https://alessandrosellitto.github.io/"
 title: Alessandro Sellitto
 theme: PaperMod
 
+languageCode: en-us
 enableInlineShortcodes: true
 enableRobotsTXT: true
 pagination:
   pagerSize: 20
 
 taxonomies:
-    tag: tags
+  tag: tags
 
 menu:
-    main:
-        - name: Research
-          url: research/
-          weight: 2
-        - name: Teaching
-          url: teaching/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 5
-        - name: Policy
-          url: policy/
-          weight: 4
+  main:
+    - name: Research
+      url: research/
+      weight: 1
+    - name: CV
+      url: CV_Alessandro_Sellitto.pdf
+      weight: 2
 
 params:
-    description: "This website hosts Alessandro Sellitto's research papers, course materials, data, curriculum vitae, and contact information."
-    author: Alessandro Sellitto
-    # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
-    defaultTheme: light
-    hideFooter: false
-    disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowAllPagesInArchive: false
-    MainSections: ["research","teaching","policy","data"]
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
-    profileMode:
-          enabled: true
-          title: Alessandro Sellitto 
-          subtitle: "PhD Candidate in Economics at the University of Milan and the University of Pavia, and Research Affiliate at the Düsseldorf Institute for Competition Economics (DICE). I have been a visiting researcher at DICE (October 2024–March 2025), the European Commission’s Joint Research Centre (April 2025–August 2025), and the Toulouse School of Economics (January 2026). My research focuses on the economics of AI, digital economics, empirical IO, and behavioral economics."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          buttons:
-            - name: Research
-              url: research/
-            - name: Data
-              url: data/
-            - name: Teaching
-              url: teaching/
-            - name: Policy
-              url: policy/
-            - name: Data
-              url: data/
-    
+  description: "Alessandro Sellitto's academic website: research, policy work, data, curriculum vitae, and contact information."
+  author: Alessandro Sellitto
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: true
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: false
+  MainSections: ["research", "policy", "data"]
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+  profileMode:
+    enabled: false
+    title: Alessandro Sellitto
+    subtitle: "PhD Candidate in Economics at the University of Milan and the University of Pavia, and Research Affiliate at the Düsseldorf Institute for Competition Economics (DICE)."
+    imageUrl: "picture.jpeg"
+    imageWidth: 160
+    imageHeight: 160
 
-    socialIcons:
-        - name: CV
-          url: cv.pdf
-        - name: Email
-          url: mailto:alessandro.sellitto@unimi.it
-        - name: LinkedIn
-          url: https://www.linkedin.com/in/alessandrosellitto
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=L6EWq5IAAAAJ&hl=it
-        - name: ORCID
-          url: https://orcid.org/0009-0004-9534-2886
-        - name: GitHub
-          url: https://github.com/AleSell
+  socialIcons:
+    - name: CV
+      url: CV_Alessandro_Sellitto.pdf
+    - name: Email
+      url: mailto:alessandro.sellitto@unimi.it
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/alessandrosellitto
+    - name: Google Scholar
+      url: https://scholar.google.com/citations?user=L6EWq5IAAAAJ&hl=it
+    - name: ORCID
+      url: https://orcid.org/0009-0004-9534-2886
+    - name: GitHub
+      url: https://github.com/alessandrosellitto
 
-
-    assets:
-        disableScrollBarStyle: true
-    cover:
-        hiddenInList: false
-        hiddenInSingle: true
-    label:
-      text: "Alessandro Sellitto"
-      icon: favicon.ico
-      iconHeight: 18
+  assets:
+    disableScrollBarStyle: true
+    theme_color: "#ffffff"
+    msapplication_TileColor: "#ffffff"
+  cover:
+    hiddenInList: true
+    hiddenInSingle: true
+  label:
+    text: "Alessandro Sellitto"
+    icon: favicon.ico
+    iconHeight: 18
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn 
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: autumn
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2

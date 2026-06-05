@@ -1,0 +1,204 @@
+:root {
+  --theme: #ffffff;
+  --entry: #ffffff;
+  --primary: #111111;
+  --secondary: #5a5a5a;
+  --content: #333333;
+  --border: #e5e5e5;
+  --accent: #0650b7;
+  --accent-hover: #043f91;
+}
+
+/* ---------- Base ---------- */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #ffffff;
+  color: #333333;
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Helvetica Neue", Helvetica,
+               Arial, sans-serif;
+  line-height: 1.65;
+}
+
+/* ---------- Width ---------- */
+
+.main,
+.header {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 1rem 2rem 4rem;
+}
+
+.header {
+  padding: 1rem 2rem 0;
+}
+
+/* ---------- Links ---------- */
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* ---------- Typography ---------- */
+
+h1 {
+  color: #111111;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.4rem;
+}
+
+h2 {
+  color: #111111;
+  font-size: 1.35rem;
+  font-weight: 600;
+  border: none;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  color: #111111;
+  font-size: 1.08rem;
+  font-weight: 600;
+}
+
+p {
+  margin: 0.9rem 0;
+}
+
+/* ---------- Homepage ---------- */
+
+.home-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.2rem;
+  margin-bottom: 3rem;
+  font-size: 0.95rem;
+}
+
+.home-nav a {
+  color: #444444;
+}
+
+.home-nav a:hover {
+  color: var(--accent);
+}
+
+.home-header {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) 220px;
+  column-gap: 2.5rem;
+  align-items: start;
+}
+
+.home-heading {
+  grid-column: 1 / -1;
+}
+
+.home-heading h1 {
+  color: var(--accent);
+  margin-top: 0;
+}
+
+.home-affiliation {
+  color: #666666;
+  font-size: 1.05rem;
+  margin-top: 0;
+  margin-bottom: 1.4rem;
+}
+
+.home-copy {
+  grid-column: 1;
+  align-self: center;
+}
+
+.home-photo {
+  grid-column: 2;
+  width: 220px;
+  max-width: 220px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.home-section {
+  margin-top: 2.5rem;
+}
+
+.clean-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.clean-list li {
+  margin-bottom: 1rem;
+}
+
+.home-links {
+  color: #666666;
+}
+
+/* ---------- PaperMod cleanup ---------- */
+
+.post-entry {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.entry-header h2 {
+  border: none;
+}
+
+.footer,
+.buttons,
+.social-icons {
+  display: none;
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 800px) {
+
+  .main,
+  .header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .home-header {
+    grid-template-columns: 1fr;
+  }
+
+  .home-heading,
+  .home-copy,
+  .home-photo {
+    grid-column: 1;
+  }
+
+  .home-photo {
+    width: 180px;
+    max-width: 180px;
+    margin-top: 1rem;
+  }
+
+  .home-nav {
+    justify-content: flex-start;
+  }
+}

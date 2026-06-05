@@ -1,0 +1,75 @@
+{{ define "main" }}
+
+<section class="academic-home">
+
+  <nav class="home-nav">
+    <a href="{{ "research/" | relURL }}">Research</a>
+    <a href="{{ "CV_Alessandro_Sellitto.pdf" | relURL }}">CV</a>
+  </nav>
+
+  <header class="home-header">
+
+<div class="home-heading">
+
+  <h1>Alessandro Sellitto</h1>
+
+  <p class="home-affiliation">
+    PhD Candidate in Economics<br>
+    University of Milan &amp; University of Pavia
+  </p>
+
+</div>
+
+<div class="home-copy">
+
+  <p>
+    I am a PhD candidate in Economics at the University of Milan and the University of Pavia,
+    and a Research Affiliate at the Düsseldorf Institute for Competition Economics (DICE).
+    My research focuses on digital economics, the economics of AI, industrial organization,
+    and behavioral economics.
+  </p>
+
+  <p>
+    I have been a visiting researcher at DICE, the European Commission's Joint Research Centre,
+    and the Toulouse School of Economics.
+  </p>
+
+</div>
+
+<img class="home-photo"
+     src="{{ "picture.jpeg" | relURL }}"
+     alt="Alessandro Sellitto">
+
+  </header>
+
+  <section class="home-section">
+
+<h2>Research</h2>
+
+<ul class="clean-list">
+  <li><strong><a href="{{ "regulatory-tradeoff.pdf" | relURL }}">The Regulatory Trade-Off: Data Integration, Privacy Costs, and Welfare in Digital Platforms</a></strong></li>
+  <li><strong>Search Advertising with Richer Information</strong><br>with Pinar Yildirim and Eduardo M. Azevedo</li>
+  <li><strong>The Economics of Supercomputing</strong><br>with Néstor Duch-Brown</li>
+</ul>
+
+<p><a href="{{ "research/" | relURL }}">All research →</a></p>
+
+  </section>
+
+  <section class="home-section">
+
+<h2>Links</h2>
+
+<p class="home-links">
+  <a href="mailto:alessandro.sellitto@unimi.it">Email</a> /
+  <a href="https://scholar.google.com/citations?user=L6EWq5IAAAAJ&hl=it">Google Scholar</a> /
+  <a href="https://orcid.org/0009-0004-9534-2886">ORCID</a> /
+  <a href="https://www.linkedin.com/in/alessandrosellitto">LinkedIn</a> /
+  <a href="https://github.com/alessandrosellitto">GitHub</a>
+</p>
+
+  </section>
+
+</section>
+
+{{ end }}
