@@ -128,10 +128,16 @@ p {
 }
 
 .home-photo {
+  display: block;
   grid-column: 2;
+  align-self: center;
+  justify-self: center;
   width: 220px;
   max-width: 220px;
-  height: auto;
+  height: auto !important;
+  max-height: none;
+  object-fit: contain;
+  object-position: center;
   border-radius: 2px;
 }
 
