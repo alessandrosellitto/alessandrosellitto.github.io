@@ -50,7 +50,7 @@ params:
 
   socialIcons:
     - name: CV
-      url: CV_Alessandro_Sellitto.pdf
+      url: CV_Alessandro_Sellitto.pdf?v=20260829
     - name: Email
       url: mailto:alessandro.sellitto@unimi.it
     - name: LinkedIn
