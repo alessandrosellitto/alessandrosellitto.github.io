@@ -17,7 +17,7 @@ My research focuses on digital economics, the economics of AI, industrial organi
 ---
 
 ## Research in Progress
-### LLM Integration in Advertising
+### Implications of LLM Integration in Advertising
 
 with Eduardo M. Azevedo and Pinar Yildirim 
 
