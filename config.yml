@@ -43,7 +43,7 @@ params:
   profileMode:
     enabled: false
     title: Alessandro Sellitto
-    subtitle: "PhD Candidate in Economics at the University of Milan and the University of Pavia, and Research Affiliate at the Düsseldorf Institute for Competition Economics (DICE)."
+    subtitle: "Postdoctoral Researcher at Institut Mines-Télécom Business School and PhD Candidate in Economics at the University of Milan and the University of Pavia."
     imageUrl: "profile-photo.jpeg"
     imageWidth: 160
     imageHeight: 160
