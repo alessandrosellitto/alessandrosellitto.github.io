@@ -8,7 +8,7 @@ My research lies at the intersection of industrial organization, digital economi
 
 ### [The Cost of Exercising Rights: Consent Design in Data-Driven Platforms](/consentdesign.pdf)
 
-*Under Review*
+*Under review.*
 
 **Abstract.** Digital platforms can grant users formal privacy rights while making those rights costly to exercise. This paper studies consent design in advertising-funded platforms that choose opt-out frictions before users choose platforms and consent. Higher refusal costs expand monetizable data and may improve data-driven quality, but burden users who refuse. With captive users, platform-chosen frictions are excessive when the marginal refusal burden exceeds the quality value of induced consent, and insufficient when the reverse holds. Under competition, privacy-sensitive users sort across platforms, so refusal costs can repel or attract demand. The welfare effects of friction caps also depend on business stealing.
 
