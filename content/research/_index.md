@@ -6,7 +6,7 @@ My research lies at the intersection of industrial organization, digital economi
 
 ## Working Papers
 
-### [The Cost of Exercising Rights: Consent Design in Data-Driven Platforms](/cosentdesign.pdf)
+### [The Cost of Exercising Rights: Consent Design in Data-Driven Platforms](/consentdesign.pdf)
 
 *Under Review*
 
