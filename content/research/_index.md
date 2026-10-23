@@ -14,16 +14,19 @@ My research lies at the intersection of industrial organization, digital economi
 
 ---
 
-## Research in Progress
-### Implications of LLM Integration in Advertising
+### [Implications of LLM Integration in Advertising](/llms-ads)
 
 with Eduardo M. Azevedo and Pinar Yildirim 
 
-*Draft available upon request.*
+[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7662739)
 
-**Abstract.** We examine how richer query information changes the revenue economics of search advertising. We model the move from keyword search to semantic and conversational search as a refinement of the platform's information about query-level click-through rates, and ask how this refinement affects expected revenue under different selling rules. Under a fixed weighted second-price auction, finer information improves matching but has an ambiguous effect on revenue, because more precise queries can also thin competition within realized auctions. When the platform can adapt the mechanism to the information it observes, this ambiguity disappears: finer information raises expected revenue from the refined information channel. We then show that conversational search also changes the timing problem. A platform may prefer to wait before showing an ad, because later turns can reveal a more valuable commercial state. Descriptive evidence from sponsored-search campaigns shows a long-run drift toward longer, more natural-language keyword targeting, but no discrete change in targeting at the transition toward conversational search.
+**Abstract.** We examine how richer query information changes the revenue economics of search advertising. We model the move from keyword search to conversational search as a refinement of the platform’s information about query-level click-through rates and ask how this refinement affects expected revenue under different selling rules. We find that, under a fixed weighted second-price auction, finer information weakly improves matching but has an ambiguous effect on revenue. This is because more precise queries
+can thin out competition within realized auctions. When the platform can adapt the mechanism to the information it observes, finer information weakly raises expected revenue. With constant demand elasticities, the revenue-maximizing auction is a weighted second-price auction with tuned weights and reserves, an auction format major platforms use. Conversational search also raises questions regarding the optimal timing of ads in a conversation. We argue that a platform may prefer to wait before
+showing an ad, because later turns can reveal more about what the user wants, although the user may leave before then.
 
----
+## Research in Progress
+
+Further research projects are underway.
 
 ## Policy Reports
 
