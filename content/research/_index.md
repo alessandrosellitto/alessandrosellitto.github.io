@@ -14,7 +14,7 @@ My research lies at the intersection of industrial organization, digital economi
 
 ---
 
-### [Implications of LLM Integration in Advertising](/llms-ads)
+### [Implications of LLM Integration in Advertising](/llms-ads.pdf)
 
 with Eduardo M. Azevedo and Pinar Yildirim 
 
