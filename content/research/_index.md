@@ -24,10 +24,6 @@ with Eduardo M. Azevedo and Pinar Yildirim
 can thin out competition within realized auctions. When the platform can adapt the mechanism to the information it observes, finer information weakly raises expected revenue. With constant demand elasticities, the revenue-maximizing auction is a weighted second-price auction with tuned weights and reserves, an auction format major platforms use. Conversational search also raises questions regarding the optimal timing of ads in a conversation. We argue that a platform may prefer to wait before
 showing an ad, because later turns can reveal more about what the user wants, although the user may leave before then.
 
-## Research in Progress
-
-Further research projects are underway.
-
 ## Policy Reports
 
 ### Generative AI Outlook Report
