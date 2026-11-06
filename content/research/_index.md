@@ -16,13 +16,15 @@ My research lies at the intersection of industrial organization, digital economi
 
 ### [Implications of LLM Integration in Advertising](/llms-ads.pdf)
 
-with Eduardo M. Azevedo and Pinar Yildirim 
+with Eduardo M. Azevedo and Pinar Yildirim
 
-[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7662739)
+*Under review.*
 
 **Abstract.** We examine how richer query information changes the revenue economics of search advertising. We model the move from keyword search to conversational search as a refinement of the platform’s information about query-level click-through rates and ask how this refinement affects expected revenue under different selling rules. We find that, under a fixed weighted second-price auction, finer information weakly improves matching but has an ambiguous effect on revenue. This is because more precise queries
 can thin out competition within realized auctions. When the platform can adapt the mechanism to the information it observes, finer information weakly raises expected revenue. With constant demand elasticities, the revenue-maximizing auction is a weighted second-price auction with tuned weights and reserves, an auction format major platforms use. Conversational search also raises questions regarding the optimal timing of ads in a conversation. We argue that a platform may prefer to wait before
 showing an ad, because later turns can reveal more about what the user wants, although the user may leave before then.
+
+[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7662739)
 
 ## Policy Reports
 
